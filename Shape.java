@@ -7,6 +7,12 @@ public abstract class Shape {
     protected int x;
     protected int y;
 
+    /**
+     * draw any shape with turtle
+     * @param x x coordinates
+     * @param y y coordinates
+     * @param color color of the shape
+     */
     public Shape(int x, int y, String color) {
         this.x = x;
         this.y = y;
@@ -16,9 +22,9 @@ public abstract class Shape {
     }
 
     /**
-     * 
-     * @param x 
-     * @param y
+     * draw a shape with specific color.
+     * @param x x coordinates
+     * @param y y coordinates
      */
     public Shape(int x, int y) {
         this(x, y, "black");
@@ -32,24 +38,38 @@ public abstract class Shape {
         return turtle;
     }
 
+    /**
+     * get X coordinates
+     * @return
+     */
     public int getX() {
         return x;
     }
 
+    /**
+     * get Y coordinates
+     * @return Y coordinates
+     */
     public int getY() {
         return y;
     }
 
+    /**
+     * get Color for the shapes
+     * @return color of the shape
+     */
     public String getColor() {
         return color;
     }
 
+    /**
+     * draw the shape with turtle
+     */
     public abstract void draw();
 
-    public abstract String toString();
-
-    public abstract boolean equals(Object obj);
-
+    /**
+     * reset turtle position
+     */
     public void reset() {
         turtle.up();
         turtle.setPosition(x, y);
