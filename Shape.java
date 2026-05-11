@@ -1,10 +1,26 @@
 /**
- * 
+ * Parent class for drawing shape with turtle.
+ * @author Aung Aung
  */
 public abstract class Shape {
+    /**
+     * Turtle used to draw shape/
+     */
     private Turtle turtle;
+
+    /**
+     * Color of the shape.
+     */
     private String color;
+
+    /**
+     * X coordinate.
+     */
     protected int x;
+
+    /**
+     * Y coordinate.
+     */
     protected int y;
 
     /**
