@@ -4,7 +4,7 @@
  */
 public abstract class Shape {
     /**
-     * Turtle used to draw shape/
+     * Turtle used to draw shape.
      */
     private Turtle turtle;
 
