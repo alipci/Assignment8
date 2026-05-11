@@ -35,6 +35,7 @@ public abstract class Shape {
         this.color = color;
         this.turtle = new Turtle();
         this.turtle.fillColor(color);
+        this.turtle.outlineColor(color);
     }
 
     /**

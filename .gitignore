@@ -30,3 +30,4 @@ bin/
 out/
 target/
 test/
+.DS*
