@@ -24,5 +24,7 @@ CSC 175 Group Assignment
 </ul>
 
 ## UML Diagram
- UML Diagram link: [UML Diagram image](https://app.diagrams.net/?libs=general;uml#)
- 
+![UML Diagram](https://github.com/alipci/Assignment8/blob/0e50c1dc654639f3ccfa56ee1169edee61a08d11/UML%20diagram.drawio.png)
+
+ UML Diagram link: [UML Diagram image](https://github.com/alipci/Assignment8/blob/0e50c1dc654639f3ccfa56ee1169edee61a08d11/UML%20diagram.drawio.png)
+
