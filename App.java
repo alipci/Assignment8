@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
-
+/**
+ * An interactive main menu.
+ */
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -48,6 +50,8 @@ public class App {
                     System.out.print("Color: ");
                     String color = scanner.nextLine();
                     shape = new Rectangle(x, y, width, height, color);
+                    Rectangle rect = (Rectangle) shape;
+                    System.out.println("Area: " + rect.getArea());
                     break;
                 }
                 case 3: {
@@ -72,7 +76,7 @@ public class App {
                     shape = new Star(x, y, color);
                     break;
                 }
-                case 5:
+                case 0:
                     System.out.println("Exit Program.");
                     break;
                 default:
@@ -83,6 +87,6 @@ public class App {
                 shape.draw();
                 System.out.println("Shape Drew: " + shape);
             }
-        } while (choice != 5);
+        } while (choice != 0);
     }
 }
